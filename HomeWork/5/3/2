@@ -1,0 +1,1 @@
+sed -Ei '/^\s*#.+$|^\s*$/d' nginx.conf
