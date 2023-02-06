@@ -1,0 +1,4 @@
+loginov@gentoo ~/netology/bash/scripts4 $ sudo find /etc -type f -name "*.conf" > find.list || sudo locate -i --regex "^\/etc\/.*\/.*\.conf$" > locate.list && wc -l find.list locate.list
+ 136 find.list
+ 135 locate.list
+ 271 итого
