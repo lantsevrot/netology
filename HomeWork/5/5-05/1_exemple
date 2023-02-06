@@ -1,0 +1,81 @@
+loginov@gentoo ~ $ bash 1.sh 
+Must be root to run "1.sh".
+loginov@gentoo ~ $ sudo bash 1.sh 
+Please, select a network interface:
+1) enp111s0
+2) ip_vti0
+3) lo
+4) sit0
+5) wlo1
+Interface: wlo1
+selected
+Choose one of the items 1-5
+loginov@gentoo ~ $ sudo bash 1.sh 
+Please, select a network interface:
+1) enp111s0
+2) ip_vti0
+3) lo
+4) sit0
+5) wlo1
+Interface: 5
+wlo1 selected
+
+Please specify ip address prefix like XXX.XXX
+PREFIX ~ 192.168
+192.168.XXX.XXX
+Specify SUBNET
+SUBNET ~ 5
+192.168.5.XXX
+Specify host
+HOST ~ 
+192.168.5.(0-255)
+[*] IP : 192.168.5.1
+ARPING 192.168.5.1 from 192.168.1.64 wlo1
+Sent 3 probes (3 broadcast(s))
+Received 0 response(s)
+[*] IP : 192.168.5.2
+ARPING 192.168.5.2 from 192.168.1.64 wlo1
+^CSent 1 probes (1 broadcast(s))
+Received 0 response(s)
+Ping exit (Ctrl-C)
+loginov@gentoo ~ $ sudo bash 1.sh 
+Please, select a network interface:
+1) enp111s0
+2) ip_vti0
+3) lo
+4) sit0
+5) wlo1
+Interface: 5
+wlo1 selected
+
+Please specify ip address prefix like XXX.XXX
+PREFIX ~ 192.256
+Specify a prefix in (0-255).(0-255)
+loginov@gentoo ~ $ sudo bash 1.sh 
+Please, select a network interface:
+1) enp111s0
+2) ip_vti0
+3) lo
+4) sit0
+5) wlo1
+Interface: 5
+wlo1 selected
+
+Please specify ip address prefix like XXX.XXX
+PREFIX ~ 192.168
+192.168.XXX.XXX
+Specify SUBNET
+SUBNET ~ 
+192.168.(0-255).XXX
+Specify host
+HOST ~ 228
+192.168.(0-255).228
+[*] IP : 192.168.1.228
+ARPING 192.168.1.228 from 192.168.1.64 wlo1
+Sent 3 probes (3 broadcast(s))
+Received 0 response(s)
+[*] IP : 192.168.2.228
+ARPING 192.168.2.228 from 192.168.1.64 wlo1
+^CSent 2 probes (2 broadcast(s))
+Received 0 response(s)
+Ping exit (Ctrl-C)
