@@ -1,0 +1,10 @@
+loginov@gentoo ~/netology/bash/scripts4 $ ls -l /etc/ | cut -d' ' -f1 | sort | uniq | head -n -1
+-r--------
+-r--r-----
+-rw-r-----
+-rw-r--r--
+-rwxr-xr-x
+drwxr-xr-x
+lrwxrwxrwx
+loginov@gentoo ~/netology/bash/scripts4 $ ls -l /etc/ | cut -d' ' -f1 | sort | uniq | head -n -1 | wc -l
+7
