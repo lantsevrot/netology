@@ -1,0 +1,2 @@
+loginov@gentoo ~ $ find ~ -type f -name ".*" | wc -l
+384
