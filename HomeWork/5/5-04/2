@@ -1,0 +1,2 @@
+loginov@gentoo ~/netology/bash/scripts4 $ cat /etc/* 1> output.txt 2> error.txt || wc -l error.txt
+86 error.txt
